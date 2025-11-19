@@ -14,8 +14,6 @@ public class ReceiptGenerator {
 
         writer.print("Testing Output Using PrintWriter");
 
-        int boob = 3;
-
         try {
             desktop.open(receipt);
             System.out.println("Opening File...");
