@@ -12,7 +12,7 @@ METHOD processReceipt(item_name, quantity, unit_price, useDiscount)
 
     SET tax TO tax / 100
     SET subtotal TO unit_price * quantity
-    SET total TO ROUND(subtotal + subtotal * tax)
+    SET total TO ROUND(subtotal * tax + subtotal) 
 END METHOD
 
 METHOD validateInput(item_name, quantity, unit_price)
