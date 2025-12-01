@@ -1,9 +1,11 @@
 ========== RECEIPT ==========
 
-Item: Bread
-Quantity: 5
+ORDER: 
+Notebook                $2.50
+Notebook                $2.50
+Notebook                $2.50
 
 =============================
 
-Subtotal: 14.2375
-Total: 15.091750000000001
+SUBTOTAL: $7.50
+TOTAL: $7.95
