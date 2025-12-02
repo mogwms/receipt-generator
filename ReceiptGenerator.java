@@ -44,7 +44,7 @@ public class ReceiptGenerator {
             subtotal = subtotal - (fdiscount * subtotal); // calculate discounted price
         }
 
-        double total = subtotal + subtotal * ftax; // add tax to subtotal and calculate total price
+        double total = subtotal + (subtotal * ftax); // add tax to subtotal and calculate total price
 
         try (PrintWriter writer = new PrintWriter("output.txt")) { // create try-catch to write to file using PrintWriter
             writer.println("========== RECEIPT =========="); // write receipt title and line break for formatting
