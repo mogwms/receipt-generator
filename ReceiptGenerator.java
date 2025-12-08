@@ -99,7 +99,7 @@ public class ReceiptGenerator {
                 }
 
                 useDiscounts = Boolean.parseBoolean(items[3]);
-                
+      
                 if (useDiscounts) {
                     System.out.println("Applying Discount To Order");
                 }
